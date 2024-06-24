@@ -1,78 +1,68 @@
-<html>
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.scss">
+    <title>TeachPlay</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon shortcut" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
-    <body>
-    <header>
 
+<body>
+    <header class="header">
+        <nav class="nav">
 
-<!-- Começo do NAVBAR -->
+            <a class="logo" href="home">SK GAMES</a>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary-dark " >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">SNAKE</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      p
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Games</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contate-nos</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Mais</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+            <ul class="nav-list">
 
+                <li><a href="equipe">EQUIPE</a></li>
+                <li><a href="">GAMES</a></li>
+                <li><a href="contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <?php
 
-    <!-- Começo do carrosel -->
+        if (isset($_GET["param"])) {
 
+            $param = $_GET["param"];
 
+            //separar o parametro por "/"
+            $p = explode("/", $param);
 
+            //print_r($p);
 
-  </div>
-  <div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="logoeldenring.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+        }
 
+        $page = $p[0] ?? "home";
+        $jogo = $p[1] ?? NULL;
 
-    </body>
+        if ($page == "jogo") {
+            $pagina = "jogo/{$jogo}.php";
+        } else {
+            $pagina = "paginas/{$page}.php}";
+        }
+
+        //verificcar se a pagina exite
+        if (file_exists($pagina)) {
+            include $pagina;
+        } else {
+            include "paginas/404.php";
+        }
+        ?>
+    </main>
+    
+</body>
+<footer>
+
+    <p>Desenvolvido Por : <a href="" target="_blank"></a></p>
+
+</footer>
+
 </html>
