@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SK GAMES</title>
+<<<<<<< HEAD
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+=======
+>>>>>>> 76da11637d08180e72bc4f0590a73ddcf7f2c69f
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon shortcut" href="imagens/logos/TachPlayINVETIDO.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,6 +57,7 @@
             include "paginas/404.php";
         }
         ?>
+<<<<<<< HEAD
 
     </main>
 </body>
@@ -61,6 +65,13 @@
 
     <p class="text-white">Desenvolvido Por : <a href="https://github.com/RootViolence" target="_blank">Guilherme
             Mendes</a></p>
+=======
+    </main>
+</body>
+<footer>
+
+    <p>Desenvolvido Por : <a href="#" target="_blank">Guilherme Mendes</a></p>
+>>>>>>> 76da11637d08180e72bc4f0590a73ddcf7f2c69f
 
 </footer>
 

@@ -7,11 +7,19 @@ body {
 
 .header .nav {
   background: #000000;
+<<<<<<< HEAD
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   box-shadow: 0px 8px 10px -5px #640b64; }
+=======
+  height: 6em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 2px 5px 1px #640b64; }
+>>>>>>> 76da11637d08180e72bc4f0590a73ddcf7f2c69f
   .header .nav .nav-list {
     list-style: none;
     display: flex; }
@@ -38,6 +46,7 @@ body {
   color: #640b64; }
   .logo:hover {
     transition: ease 0.5s;
+<<<<<<< HEAD
     color: #640b64 a;
       color-text-decoration: none; }
 
@@ -75,5 +84,8 @@ footer {
 
 .texto-sobre {
   color: #BEBEBE; }
+=======
+    color: #640b64; }
+>>>>>>> 76da11637d08180e72bc4f0590a73ddcf7f2c69f
 
 /*# sourceMappingURL=style.css.map */
