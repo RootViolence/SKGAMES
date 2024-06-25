@@ -3,9 +3,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
 
 
@@ -22,21 +23,29 @@
                         <img src="imagens/pagina/curse/carrosel2.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev bg-dark" type="button" data-target="#carouselExample" data-slide="prev">
+                <button class="carousel-control-prev bg-dark" type="button" data-target="#carouselExample"
+                    data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next bg-dark" type="button" data-target="#carouselExample" data-slide="next">
+                <button class="carousel-control-next bg-dark" type="button" data-target="#carouselExample"
+                    data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <h2 class="c-purple text-center mt-3">Curse Game</h2>
             <div class="container mt-5">
-    <p class="" style="color:#BEBEBE;">
-        SOBRE ESTE JOGO<br>
-        Entre no mundo perigoso e cheio de ação de Rua do Samurai, um jogo de combate intenso onde você assume o papel de um samurai solitário, determinado a livrar sua cidade da ameaça de bandidos implacáveis. Com sua espada afiada e habilidades de luta excepcionais, você enfrentará ondas de inimigos em batalhas de rua eletrizantes. Defenda os inocentes, restabeleça a ordem e prove seu valor como o verdadeiro guardião da justiça neste jogo de ação imersivo e dinâmico. Prepare-se para duelos épicos e combates corpo a corpo que testarão sua habilidade e honra de samurai.
-    </p>
-</div>
+                <p class="" style="color:#BEBEBE;">
+                    SOBRE ESTE JOGO<br>
+                    Entre no mundo perigoso e cheio de ação de Rua do Samurai, um jogo de combate intenso onde você
+                    assume o papel de um samurai solitário, determinado a livrar sua cidade da ameaça de bandidos
+                    implacáveis. Com sua espada afiada e habilidades de luta excepcionais, você enfrentará ondas de
+                    inimigos em batalhas de rua eletrizantes. Defenda os inocentes, restabeleça a ordem e prove seu
+                    valor como o verdadeiro guardião da justiça neste jogo de ação imersivo e dinâmico. Prepare-se para
+                    duelos épicos e combates corpo a corpo que testarão sua habilidade e honra de samurai.
+                </p>
+            </div>
 
         </div>
         <div class="col-lg-5">
@@ -44,7 +53,9 @@
                 <img src="imagens/pagina/curse/banner01.jpg" class="img-fluid mb-3" alt="Banner 01">
                 <div class="text">
                     <p class="fs-5" style="color:#BEBEBE;">
-                        Entre no mundo perigoso e cheio de ação de Rua do Samurai, um jogo de combate intenso onde você assume o papel de um samurai solitário, determinado a livrar sua cidade da ameaça de bandidos implacáveis.
+                        Entre no mundo perigoso e cheio de ação de Rua do Samurai, um jogo de combate intenso onde você
+                        assume o papel de um samurai solitário, determinado a livrar sua cidade da ameaça de bandidos
+                        implacáveis.
                     </p>
                     <p class="texto-sobre fs-5" style="color:#BEBEBE;">
                         TODAS AS ANÁLISES:<br>
@@ -55,9 +66,9 @@
                         Guilherme Mendes
                     </p>
                 </div>
-                <a href="contato" class="btn btn-primary btn-block bg-purple mt-3">Jogar</a>
+                <a href="c3p/curse/index.html" class="btn btn-primary btn-block bg-purple mt-3">Jogar</a>
             </div>
-            
+
         </div>
     </div>
 </div>

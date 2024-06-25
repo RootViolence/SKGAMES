@@ -6,7 +6,7 @@
 
 
 <div class="text-center ">
-<a href="home" class="btn btn-primary col-5 mb-5 mt-5" >Ir para Jogos</a>
+<a href="home" class="btn btn-primary col-5 mb-5 mt-5 bg-purple" >Ir para Jogos</a>
 </div>
 <!-- <div class="card mt-3 mb-6">
   <div class="card-body bg-dark">
