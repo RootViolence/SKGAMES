@@ -4,7 +4,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4 col-10 mx-auto">
         <div class="col">
             <div class="card h-100">
-                <img src="imagens/equipe/brunootavio.jpg" class="card-img-top" alt="...">
+                <img src="brunootavio.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-dark" style="color:#BEBEBE">
                     <h5 class="card-title ">Bruno Otávio</h5>
                     <a href="123.php" class="btn btn-primary bg-dark">Github</a>
@@ -14,7 +14,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <img src="imagens/equipe/leonardo.jpg" class="card-img-top" alt="...">
+                <img src=" Leonardo.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-dark" style="color:#BEBEBE"">
         <h5 class=" card-title">Leonardo</h5>
                     <a href="https://github.com/SrVertex" class="btn btn-primary bg-dark">Github</a>
@@ -24,7 +24,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <img src="imagens/equipe/agorasimtaina.png" class="card-img-top" alt="...">
+                <img src=" agorasimtaina.png" class="card-img-top" alt="...">
                 <div class="card-body bg-dark" style="color:#BEBEBE"">
         <h5 class=" card-title">Tainá</h5>
                     <a href="https://github.com/ptaina" class="btn btn-primary bg-dark">Github</a>
@@ -34,7 +34,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <img src="imagens/equipe/pedrohenrique.jpg" class="card-img-top" alt="...">
+                <img src="Pedrohenrique.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-dark" style="color:#BEBEBE">
                     <h5 class="card-title">Pedro Henrique</h5>
                     <a href="https://github.com/PedroLaera" class="btn btn-primary bg-dark">Github</a>
@@ -44,7 +44,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <img src="imagens/equipe/emanuel.png" class="card-img-top" alt="...">
+                <img src="Emanuel.png" class="card-img-top" alt="...">
                 <div class="card-body bg-dark" style="color:#BEBEBE">
                     <h5 class="card-title">Emanuel</h5>
                     <a href="#" class="btn btn-primary bg-dark">Github</a>
@@ -54,7 +54,7 @@
         </div>
         <div class="col">
             <div class="card h-100">
-                <img src="imagens/equipe/guilherme.jpg" class="card-img-top" alt="...">
+                <img src="guilherme.jpg" class="card-img-top" alt="...">
                 <div class="card-body bg-dark" style="color:#BEBEBE">
                     <h5 class="card-title">Guilherme</h5>
                     <a href="https://github.com/RootViolence" class="btn btn-primary bg-dark">Github</a>

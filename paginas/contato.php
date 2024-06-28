@@ -2,7 +2,7 @@
     <div class="row mr-5 ml-5">
         <div class="col-md-6">
             <div class="text-center mb-4 mt-5">
-                <img src="imagens/equipe/contate.png" alt="Imagem de contato" class="img-fluid">
+                <img src="contate.png" alt="Imagem de contato" class="img-fluid">
             </div>
         </div>
         <div class="col-md-6 mt-5">

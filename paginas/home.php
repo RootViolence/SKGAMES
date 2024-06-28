@@ -134,7 +134,7 @@
   </div>
   <div class="col">
     <div class="card h-100 container-fluid bg-dark">
-      <img src="imagens/jogos/ABSOLVER.PNG" class="card-img-top mx-auto mt-2" alt="...">
+      <img src="absolverbanner.png" class="card-img-top mx-auto mt-2" alt="...">
       <div class="card-body">
         <h5 class="card-title text-white">Absolver</h5>
         <p class="card-text" style="color:#BEBEBE;">Absolver é um jogo de combate multijogador online, onde você usa uma
@@ -163,7 +163,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
       <div class="col">
         <div class="card h-100 container-fluid bg-dark">
-          <img src="imagens/jogos/eldenring.jpeg" class="card-img-top mx-auto mt-2" alt="...">
+          <img src="	 eldenring.jpeg" class="card-img-top mx-auto mt-2" alt="...">
           <div class="card-body">
             <h5 class="card-title text-white">Dark Souls REMASTERED</h5>
             <p class="card-text" style="color:#BEBEBE;">Experimente novamente o jogo aclamado pela crítica e definidor
@@ -180,7 +180,7 @@
       </div>
       <div class="col">
         <div class="card h-100 container-fluid bg-dark">
-          <img src="imagens/jogos/sifuicon.jpg" class="card-img-top mx-auto mt-2" alt="...">
+          <img src=" sifuicon.jpg" class="card-img-top mx-auto mt-2" alt="...">
           <div class="card-body">
             <h5 class="card-title text-white">Sifu</h5>
             <p class="card-text" style="color:#BEBEBE">Dos mesmos criadores de Absolver, o aclamado jogo de luta para
@@ -195,7 +195,7 @@
       </div>
       <div class="col">
         <div class="card h-100 container-fluid bg-dark">
-          <img src="imagens/jogos/ABSOLVER.PNG" class="card-img-top mx-auto mt-2" alt="...">
+          <img src=" absolver.png" class="card-img-top mx-auto mt-2" alt="...">
           <div class="card-body">
             <h5 class="card-title text-white">Absolver</h5>
             <p class="card-text" style="color:#BEBEBE;">Absolver é um jogo de combate multijogador online, onde você usa
@@ -213,7 +213,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
       <div class="col">
         <div class="card h-100 container-fluid bg-dark">
-          <img src="imagens/jogos/eldenring.jpeg" class="card-img-top mx-auto mt-2" alt="...">
+          <img src="	 eldenring.jpeg" class="card-img-top mx-auto mt-2" alt="...">
           <div class="card-body">
             <h5 class="card-title text-white">Dark Souls REMASTERED</h5>
             <p class="card-text" style="color:#BEBEBE;">Experimente novamente o jogo aclamado pela crítica e definidor
@@ -229,7 +229,7 @@
       </div>
       <div class="col">
         <div class="card h-100 container-fluid bg-dark">
-          <img src="imagens/jogos/sifuicon.jpg" class="card-img-top mx-auto mt-2" alt="...">
+          <img src="sifuicon.jpg" class="card-img-top mx-auto mt-2" alt="...">
           <div class="card-body">
             <h5 class="card-title text-white">Sifu</h5>
             <p class="card-text" style="color:#BEBEBE">Dos mesmos criadores de Absolver, o aclamado jogo de luta para
@@ -244,7 +244,7 @@
       </div>
       <div class="col">
         <div class="card h-100 container-fluid bg-dark">
-          <img src="imagens/jogos/ABSOLVER.PNG" class="card-img-top mx-auto mt-2" alt="...">
+          <img src="  absolver.png" class="card-img-top mx-auto mt-2" alt="...">
           <div class="card-body">
             <h5 class="card-title text-white">Absolver</h5>
             <p class="card-text" style="color:#BEBEBE;">Absolver é um jogo de combate multijogador online, onde você usa
